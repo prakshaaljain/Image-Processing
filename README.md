@@ -1,3 +1,118 @@
+
+# Real-time Image Enhancement using Adaptive Histogram Equalization and Deep Learning Techniques
+
+![Project Banner](path/to/banner/image.jpg)
+
+## Table of Contents
+
+- [Abstract](#abstract)
+- [Introduction](#introduction)
+- [Literature Review](#literature-review)
+- [Proposed Methodology](#proposed-methodology)
+- [Results and Visualization](#results-and-visualization)
+- [Conclusion](#conclusion)
+- [References](#references)
+- [Authors](#authors)
+- [License](#license)
+
+## Abstract
+
 In this project, we propose a novel approach that integrates the adaptive histogram equalization algorithm with deep learning models for image enhancement. The adaptive histogram equalization technique is widely used in image processing to improve the contrast and dynamic range of images. However, it often leads to over-enhancement and amplification of noise artifacts. To address these limitations, we introduce deep learning models that can learn and adaptively enhance the image while preserving its natural appearance and reducing noise.
-The project begins with a comprehensive literature review to understand the existing image enhancement techniques and their limitations. Various research papers, journals, and articles related to image processing, adaptive histogram equalization, and deep learning are studied to gain insights into the state-of-the-art techniques and methodologies.
-Based on the literature review, we propose a method that combines the traditional adaptive histogram equalization algorithm with deep learning models. The adaptive histogram equalization algorithm is modified to incorporate local contrast enhancement and noise reduction techniques. This modified algorithm serves as the baseline for comparison with the deep learning models.
+
+![Workflow](path/to/workflow/image.jpg)
+
+## Introduction
+
+In recent years, the demand for real-time image enhancement has grown exponentially, driven by the increasing need for visually appealing and high-quality images in various applications. To address this challenge, researchers have been exploring the synergistic combination of adaptive histogram equalization (AHE) and deep learning techniques. This approach aims to enhance the visual quality and appearance of images in real-time by leveraging the power of AHE to redistribute pixel intensities and the capabilities of deep learning models to learn complex image representations.
+
+### Importance of Contrast Enhancement in Image Processing
+
+- **Better Visualization**: Enhances the visual appearance, making it easier for human observers to interpret and understand content.
+- **Feature Extraction**: Improves the extraction of features and patterns from images.
+- **Image Restoration**: Reveals hidden details in low-contrast images.
+- **Medical Imaging**: Crucial for accurate diagnosis by enhancing subtle structures and anomalies.
+- **Surveillance and Security**: Improves visibility in low-light or challenging conditions.
+
+## Literature Review
+
+Several studies have investigated the combination of adaptive histogram equalization (AHE) and deep learning techniques for real-time image enhancement. For instance, Chen et al. (2017) demonstrated that CNNs can effectively learn the mapping between low-quality images and their enhanced versions, resulting in visually pleasing and natural-looking images.
+
+### Key References
+
+1. Pizer, S. M., et al. (1987). Adaptive histogram equalization and its variations. *Computer Vision, Graphics, and Image Processing*, 39(3), 355-368.
+2. Sivaramakrishnan, R., et al. (2010). Contrast enhancement of medical images using histogram equalization with minimum cross entropy. *Journal of Medical Physics*, 35(4), 197-204.
+
+## Proposed Methodology
+
+### Contrast Enhancement Methods
+
+1. **Histogram Equalization (HE)**
+   - Redistributes pixel intensity values to achieve a uniform histogram distribution.
+
+2. **Adaptive Histogram Equalization (AHE)**
+   - Applies local histogram equalization to enhance local contrast.
+
+3. **Contrast-Limited Adaptive Histogram Equalization (CLAHE)**
+   - Limits contrast amplification to avoid over-enhancement.
+
+4. **Local Region Stretch (LRS)**
+   - Enhances contrast based on brightness variations, suitable for uneven illumination.
+
+### Deep Learning Model
+
+- **Convolutional Neural Network (CNN)**
+  - Designed and trained using a large dataset of images with ground truth labels for enhanced visual quality.
+
+### Evaluation Metrics
+
+- **Quantitative**: PSNR, SSIM, MSE
+- **Qualitative**: Visual comparison and subjective assessment
+
+![CNN Architecture](path/to/cnn_architecture/image.jpg)
+
+## Results and Visualization
+
+### Histogram Equalization (HE)
+
+![HE Result](path/to/he_result/image.jpg)
+
+**Conclusion**: Effectively enhances contrast but may amplify noise.
+
+### Adaptive Histogram Equalization (AHE)
+
+![AHE Result](path/to/ahe_result/image.jpg)
+
+**Conclusion**: Enhances local contrast effectively but may over-amplify noise.
+
+### Contrast-Limited Adaptive Histogram Equalization (CLAHE)
+
+![CLAHE Result](path/to/clahe_result/image.jpg)
+
+**Conclusion**: Balances contrast enhancement and noise amplification, resulting in visually pleasing images.
+
+### Local Region Stretch (LRS)
+
+![LRS Result](path/to/lrs_result/image.jpg)
+
+**Conclusion**: Effectively enhances contrast by considering brightness levels individually.
+
+## Conclusion
+
+This project presents a real-time image enhancement system that combines adaptive histogram equalization and deep learning techniques. The proposed method enhances the visual quality of images by improving contrast, brightness, and overall appearance while reducing noise artifacts. The results validate the effectiveness of the proposed approach and highlight its potential applications in various fields such as medical imaging, surveillance, and entertainment.
+
+## References
+
+1. Chen, S. D., & Ramli, A. R. (2003). Contrast Enhancement using Recursive Mean-Separate Histogram Equalization for Scalable Brightness Preservation. *IEEE Transactions on Consumer Electronics*, 49(4), 1301-1309.
+2. Yoon, H., Han, Y., & Hahn, H. (2009). Image contrast Enhancement based Sub-histogram Equalization Technique without over-equalization Noise. *World Academy of Science, Engineering and Technology*, 50.
+3. Kim, Y. T. (1997). Contrast Enhancement Using Brightness Preserving Bi-Histogram Equalization. *IEEE Transactions on Consumer Electronics*, 43(1), 1-8.
+
+## Authors
+
+- **Sanat Prasad**
+- **Prakshaal Jain**
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+![Footer Image](path/to/footer/image.jpg)
