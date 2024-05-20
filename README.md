@@ -62,7 +62,7 @@ Several studies have investigated the combination of adaptive histogram equaliza
 - **Quantitative**: PSNR, SSIM, MSE
 - **Qualitative**: Visual comparison and subjective assessment
 
-![CNN Architecture](path/to/cnn_architecture/image.jpg)
+![CNN Architecture](Image-Processing/car.jpg)
 
 ## Results and Visualization
 
