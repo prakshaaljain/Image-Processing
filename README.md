@@ -68,25 +68,25 @@ Several studies have investigated the combination of adaptive histogram equaliza
 
 ### Histogram Equalization (HE)
 
-![HE Result](path/to/he_result/image.jpg)
+![HE Result](he_car.jpg)
 
 **Conclusion**: Effectively enhances contrast but may amplify noise.
 
 ### Adaptive Histogram Equalization (AHE)
 
-![AHE Result](path/to/ahe_result/image.jpg)
+![AHE Result](ops_car.jpg)
 
 **Conclusion**: Enhances local contrast effectively but may over-amplify noise.
 
 ### Contrast-Limited Adaptive Histogram Equalization (CLAHE)
 
-![CLAHE Result](path/to/clahe_result/image.jpg)
+![CLAHE Result](clahe_car.jpg)
 
 **Conclusion**: Balances contrast enhancement and noise amplification, resulting in visually pleasing images.
 
 ### Local Region Stretch (LRS)
 
-![LRS Result](path/to/lrs_result/image.jpg)
+![LRS Result](lrs_car.jpg)
 
 **Conclusion**: Effectively enhances contrast by considering brightness levels individually.
 
