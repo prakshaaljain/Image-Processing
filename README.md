@@ -103,4 +103,3 @@ This project presents a real-time image enhancement system that combines adaptiv
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-![Footer Image](path/to/footer/image.jpg)
