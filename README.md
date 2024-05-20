@@ -1,7 +1,6 @@
 
 # Real-time Image Enhancement using Adaptive Histogram Equalization and Deep Learning Techniques
 
-![Project Banner](path/to/banner/image.jpg)
 
 ## Table of Contents
 
@@ -19,7 +18,6 @@
 
 In this project, we propose a novel approach that integrates the adaptive histogram equalization algorithm with deep learning models for image enhancement. The adaptive histogram equalization technique is widely used in image processing to improve the contrast and dynamic range of images. However, it often leads to over-enhancement and amplification of noise artifacts. To address these limitations, we introduce deep learning models that can learn and adaptively enhance the image while preserving its natural appearance and reducing noise.
 
-![Workflow](path/to/workflow/image.jpg)
 
 ## Introduction
 
