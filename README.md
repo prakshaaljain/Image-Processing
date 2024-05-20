@@ -37,10 +37,6 @@ In recent years, the demand for real-time image enhancement has grown exponentia
 
 Several studies have investigated the combination of adaptive histogram equalization (AHE) and deep learning techniques for real-time image enhancement. For instance, Chen et al. (2017) demonstrated that CNNs can effectively learn the mapping between low-quality images and their enhanced versions, resulting in visually pleasing and natural-looking images.
 
-### Key References
-
-1. Pizer, S. M., et al. (1987). Adaptive histogram equalization and its variations. *Computer Vision, Graphics, and Image Processing*, 39(3), 355-368.
-2. Sivaramakrishnan, R., et al. (2010). Contrast enhancement of medical images using histogram equalization with minimum cross entropy. *Journal of Medical Physics*, 35(4), 197-204.
 
 ## Proposed Methodology
 
@@ -99,12 +95,6 @@ Several studies have investigated the combination of adaptive histogram equaliza
 ## Conclusion
 
 This project presents a real-time image enhancement system that combines adaptive histogram equalization and deep learning techniques. The proposed method enhances the visual quality of images by improving contrast, brightness, and overall appearance while reducing noise artifacts. The results validate the effectiveness of the proposed approach and highlight its potential applications in various fields such as medical imaging, surveillance, and entertainment.
-
-## References
-
-1. Chen, S. D., & Ramli, A. R. (2003). Contrast Enhancement using Recursive Mean-Separate Histogram Equalization for Scalable Brightness Preservation. *IEEE Transactions on Consumer Electronics*, 49(4), 1301-1309.
-2. Yoon, H., Han, Y., & Hahn, H. (2009). Image contrast Enhancement based Sub-histogram Equalization Technique without over-equalization Noise. *World Academy of Science, Engineering and Technology*, 50.
-3. Kim, Y. T. (1997). Contrast Enhancement Using Brightness Preserving Bi-Histogram Equalization. *IEEE Transactions on Consumer Electronics*, 43(1), 1-8.
 
 ## Authors
 
