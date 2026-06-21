@@ -1,6 +1,6 @@
 #-*- coding:utf-8 -*-
 
-from PIL import Image, ImageOps
+from PIL import Image, ImageOps 
 import numpy as np
 from matplotlib import pyplot as plt
 
