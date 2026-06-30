@@ -1,7 +1,7 @@
  
 # Real-time Image Enhancement using Adaptive Histogram Equalization and Deep Learning Techniques
  
-
+ 
 ## Table of Contents
  
 - [Abstract](#abstract)
